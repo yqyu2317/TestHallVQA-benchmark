@@ -2,6 +2,8 @@
 
 Official repository for the paper **“TestHallVQA: Exploring LVLMs' Document-Level Reasoning under Redundant Contexts from Scientific Exams.”**
 
+> **Complete theoretical derivation:** The full theoretical derivation referenced in the paper is provided in [Complete Theoretical Derivation.pdf](./Complete%20Theoretical%20Derivation.pdf). This document contains the complete derivation beyond the condensed presentation in the main paper.
+
 TestHallVQA evaluates whether large vision-language models (LVLMs) can answer questions from scientific examination papers when the relevant evidence is surrounded by increasingly long redundant visual context. Each benchmark record provides a question, one or more gold-answer components, answer-relevant pages, and several optional context levels containing additional document pages.
 
 Given a selected page field, a model receives the corresponding page images in the stored order together with the prompt:
