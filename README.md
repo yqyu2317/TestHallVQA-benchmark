@@ -214,7 +214,7 @@ The reference judge is:
 Qwen/Qwen3-30B-A3B-Instruct-2507
 ```
 
-Its reference generation settings are `temperature=0.0`, `repetition_penalty=1.05`, and `max_new_tokens=2048`.
+Its reference generation settings are `temperature=0.1`, `repetition_penalty=1.05`, and `max_tokens=2048`.
 
 The scorer creates one judge request for every paired element of `answer` and `type`, then averages the component scores to obtain the question score.
 

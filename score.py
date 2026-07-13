@@ -38,9 +38,9 @@ Judge = Callable[[str], str]
 # metadata for callers; this module intentionally does not initialize a model.
 REFERENCE_JUDGE_MODEL = "Qwen/Qwen3-30B-A3B-Instruct-2507"
 REFERENCE_GENERATION_CONFIG = {
-    "temperature": 0.0,
+    "temperature": 0.1,
     "repetition_penalty": 1.05,
-    "max_new_tokens": 2048,
+    "max_tokens": 2048,
 }
 
 
